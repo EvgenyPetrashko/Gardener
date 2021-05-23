@@ -1,0 +1,326 @@
+<resources>
+    <string name="app_name">Gardener</string>
+
+    <string name="bottom_menu_menu_name">MENU</string>
+    <string name="bottom_menu_calendar_name">CALENDAR</string>
+    <string name="bottom_menu_home_name">HOME</string>
+    <string name="bottom_menu_settings_name">SETTINGS</string>
+    <string name="bottom_menu_profile_name">PROFILE</string>
+
+    <string name="internet_problem">Internet connection problems. To use the application without the Internet, you can purchase the full version when the Internet appears</string>
+
+    <string name="paid_activity_moon">Moon Calendar</string>
+    <string name="paid_activity_ads">Remove ADS</string>
+    <string name="paid_activity_offline">Offline Access</string>
+    <string name="paid_activity_buy">Offline Access</string>
+
+    <!--HomeFragment-->
+    <string name="reminder_text_home">Reminders</string>
+    <string name="reminder_does_not_exist_text">There are no reminders now. If you want to add a reminder, then go to Calendar section</string>
+    <string name="advice_text_example">If birds are a problem for your garden, then hanging computer disks that will glare in the sun is a good solution.</string>
+    <string name="advice_name_example">Advice#10</string>
+    <string name="reminder_days_left">Days Left: </string>
+
+    <string name="flowers_text_menu">Flowers</string>
+    <string name="vegetables_text_menu">Vegetables</string>
+    <string name="fruits_text_menu">Fruits</string>
+    <string name="berries_text_menu">Berries</string>
+    <string name="trees_text_menu">Trees</string>
+    <string name="shrubs_text_menu">Shrubs</string>
+
+    <!--ItemFragment strings-->
+
+    <string name="desc_item">Description</string>
+    <string name="cond_item">Conditions</string>
+    <string name="care_item">Care</string>
+    <string name="comment_button">Leave a comment</string>
+    
+    <!--DialogFragment&Calendar strings-->
+    
+    <string name="date_title_text">Date:</string>
+    <string name="date_change_button">Change</string>
+    <string name="event_name_text">Event Name:</string>
+    <string name="event_name_hint">Plant Strawberry</string>
+    <string name="notification_title">Notification</string>
+
+    <string name="event_time_text_title">Time:</string>
+
+    <string name="no_event_planned">No events planned</string>
+
+    <string name="event_description_text">Event Description:</string>
+    <string name="set_notification_check_button">Set Notification:</string>
+    <string name="event_description_hint">Plant strawberries in a greenhouse</string>
+    <string name="add_event_button">Add Event</string>
+    <string name="change_event_button">Change Event</string>
+    <string name="cancel_event">Cancel</string>
+    <string name="change_event">Change</string>
+
+    <string name="toast_on_dismiss_text">Please, specify the name</string>
+
+    <string name="delete_event_title">Do you want to delete this event?</string>
+    <string name="delete_event_option_yes">Yes</string>
+    <string name="delete_event_option_no">Cancel</string>
+    <string name="result_deleted_string">Successfully deleted</string>
+    <string name="result_added_string">Successfully added</string>
+    <string name="result_changed_string">Successfully changed</string>
+
+   <!--Popup menu-->
+    <string name="change_popup_menu">Change</string>
+    <string name="delete_popup_menu">Delete</string>
+
+    <!--SettingFragment strings-->
+    <string name="instruction_card_title">Instructions</string>
+    <string name="language_title">Language</string>
+    <string name="night_mode_title">Night Mode</string>
+    <string name="text_size_title">Text Size</string>
+    <string name="text_size_option_small">Small</string>
+    <string name="text_size_option_normal">Normal</string>
+    <string name="text_size_option_large">Large</string>
+    <string name="text_default_time_title">Notifications Time:</string>
+    <string name="feedback_title">Feedback</string>
+    <string name="feedback_desc">If you want to leave a comment / suggestion</string>
+    <string name="feedback_cancel_title">Do you want to go back?</string>
+    <string name="full_version_title">Full Version</string>
+    <string name="full_version_desc">Remove ads / Offline access / Moon calendar</string>
+
+    <string name="cancel_text_size">Cancel</string>
+
+
+    <!--MoonCalendar strings-->
+    <string name="unavailable_moon_calendar">Service is temporarily unavailable, problems will be fixed shortly</string>
+    <string name="orientation_title">ORIENTATION</string>
+    <string name="moon_phase">MOON PHASE</string>
+    <!--Phases-->
+    <string name="new_moon_phase">New moon</string>
+    <string name="new_and_first">Between new moon and first quarter</string>
+    <string name="first_quarter_phase">First quarter</string>
+    <string name="first_and_full">Between first quarter and full moon</string>
+    <string name="full_moon_phase">Full moon</string>
+    <string name="full_and_third">Between full moon and third quarter</string>
+    <string name="third_quarter_phase">Third quarter</string>
+    <string name="third_and_new">Between third quarter and new moon</string>
+
+
+    <!--CommentDialog-->
+    <string name="comment_cancel">Are you sure you want to cancel the comment?</string>
+    <string name="comment_option_yes">Yes</string>
+    <string name="comment_option_cancel">Cancel</string>
+
+    <!--CommentFragment-->
+    <string name="leave_feedback_title">FEEDBACK/SUGGESTION</string>
+    <string name="leave_feedback_begin">Sending message</string>
+    <string name="leave_feedback_process">Please wait…</string>
+    <string name="leave_feedback_end">Sent</string>
+    <string name="comment_body">Comment</string>
+
+    <!--ProfileFragment-->
+    <string name="status_user_string_default">Default User</string>
+    <string name="status_user_string_vip">VIP User</string>
+    <string name="user_full_name_hint">FULL NAME</string>
+    <string name="user_full_name">Name Surname</string>
+    <string name="favourites_title">Favourites</string>
+    <string name="my_garden_add">My Garden</string>
+    <string name="delete_image_toast">Do you want to delete this image?</string>
+    <string name="delete_plant_toast">Do you want to delete this plant?</string>
+    <string name="delete_plant_toast_result">Successfully delete</string>
+
+    <!--AddPlantFragment-->
+    <string name="add_fr_save_text">Save</string>
+    <string name="add_fr_name_title">Name:</string>
+    <string name="add_fr_name_hint">Cabbage</string>
+    <string name="add_fr_desc_title">Description:</string>
+    <string name="add_fr_desc_hint">Plant cabbage to greenhouse</string>
+    <string name="add_fr_date_title">Date:</string>
+    <string name="add_fr_date_change">Change</string>
+    <string name="add_fr_photos_title">Photos:</string>
+    <string name="add_fr_photos_hint">If you want to add some photos to your plant</string>
+    <string name="add_fr_add_photo">Add Photo</string>
+    <string name="add_fr_result">Successfully</string>
+
+    <!--Camera/Gallery-->
+    <string name="camera_title">Camera</string>
+    <string name="gallery_title">Gallery</string>
+
+
+
+    <string name="long_text">Компиляторы Intel могут не обеспечивать для процессоров других производителей уровень оптимизации, который не является присущим только процессорам IntelКомпиляторы Intel могут не обеспечивать для процессоров других производителей уровень оптимизации, который не является присущим только процессорам Intel. В состав этих оптимизаций входят наборы команд SSE2, SSE3 и SSSE3, а также другие оптимизации. Корпорация Intel не гарантирует доступность, функциональность или эффективность работы любых приложений оптимизации для микропроцессоров других производителей. Содержащиеся в данной продукции оптимизации, предназначены для использования с конкретными микропроцессорами Intel. Некоторые оптимизации, не относящиеся к микроархитектуре Intel, зарезервированы для микропроцессоров Intel. Пожалуйста, см. соответствующее руководство пользователя или справочные руководства для получения дополнительной информации о конкретных наборах команд, к которым относится данное уведомление.Редакция уведомления № 20110804</string>
+
+    <!--Flowers-->
+
+    <string name="rose">Rose</string>
+    <string name="chrysanthemum">Chrysanthemum</string>
+    <string name="violet">Violet</string>
+    <string name="petunia">Petunia</string>
+    <string name="linen">Linen</string>
+    <string name="hosts">Hosts</string>
+
+
+
+    <!--Vegetables-->
+
+    <string name="potato">Potato</string>
+    <string name="potato1">The potato plant is a type of tuberous herbaceous perennials of the genus Solanum of the Solanaceae family. The number of stems in one plant ranges from 4 to 8–10. Their height, depending on the variety of potatoes, may not exceed 30 cm or reach 1.5 meters.</string>
+    <string name="potato2">Planting potatoes should take place in warm soil, because at temperatures below + 8 ° C, plant growth stops. The best time for planting potatoes is the end of April – the first half of May. To get a good harvest, you need to prepare planting material. For this, large tubers are selected, which are cut into several parts with 3–5 eyes. The pieces are immersed in a solution of wood ash for a few minutes, after which they are dried and germinated for 2 weeks. Before planting, it is recommended to dip the germinated material in a solution of mineral fertilizers. The planting depth of potatoes should not exceed 12 cm for late varieties and 8 cm for early and mid-season varieties. It is better to plant potatoes in shallow furrows, the distance between which should be at least 0.5 m.</string>
+    <string name="potato3">A prerequisite is the introduction of root and foliar fertilizing. For this, bird manure, mullein, wood ash, urea and superphosphate are used. Foliar dressing is carried out with copper sulfate, which helps to fight late blight. High-quality watering of potatoes is of great importance, which is carried out at the rate of 15 liters per bush. During the growing season, there should be at least 5 such waterings, and the plant needs moisture most during flowering and formation of tubers. Potatoes are harvested when the tops are dry and have lost their green color.</string>
+    //
+    <string name="tomato">Tomato</string>
+    <string name="tomato1">The tomato is an annual or perennial herb, a species of the Solanaceae genus of the Solanaceae family. The tomato has a highly developed rod–type root system. The roots are branched, grow and form quickly. They go into the ground to a great depth (with a seedless culture up to 1 m or more), spreading in diameter by 1.5–2.5 m.</string>
+    <string name="tomato2">Tomato is a heat-demanding crop, the optimum temperature for plant growth and development is + 22 … + 25 ° C, does not bloom at temperatures below 15 ° C, dies when freezing below 0 ° C, at temperatures below +10 ° C, plant growth stops and the pollen in the flowers does not ripen and the unfertilized ovary disappears. The tomato does not tolerate high humidity, but requires a lot of water for fruit growth. Tomato plants are light demanding. With its lack, the development of plants is delayed, the leaves turn pale, the formed buds fall off, the stems are strongly elongated. Additional lighting during the seedling period improves the quality of seedlings and increases the productivity of plants.</string>
+    <string name="tomato3">Watering. Watering should be systematic. For 1 bush, 1 liter of water is taken. Hilling. The first time you need to huddle 8–12 days after transplanting into open soil, when the tomatoes are watered. This procedure must be repeated 17–20 days after the first hilling. Stepping out. 20 days after transplanting the seedlings into open soil. Mulching. You need to use organic matter: peat, grass or sawdust.</string>
+    <string name="cucumber">Cucumber</string>
+    <string name="eggplant">Eggplant</string>
+    <string name="squash">Squash</string>
+    <string name="cabbage">Cabbage</string>
+
+    <string name="abelmoschus">Abelmoschus</string>
+    <string name="abelmoschus_1">Abelmos edible – an annual herb, a species of the genus Abelmos. Plant height – from 30–40 cm (dwarf varieties) to 2 m (tall forms). Young okra pods are eaten. Okra pods cannot be stored for long, they quickly become fibrous. Boiled or lightly fried okra can be used as a side dish or as a dressing for soups. It goes well with tomatoes, garlic, onions, ginger, paprika and other spices. Ripe seeds are used to prepare a drink that tastes like coffee. The fruits of okra are harvested many times, approximately every 3–4 days, until the very frost, more mature fruits coarse, become tough and inedible.</string>
+    <string name="abelmoschus_2">Sowing seeds for seedlings is carried out at the end of winter or at the very beginning of spring. It is convenient to use peat cups for this. They are filled with fertile soil and 3 okra seeds are placed in each. So that they sprout faster, they are soaked a day before sowing. From above they are covered with a 4-centimeter layer of soil. Temperature is important for seed germination, the air must be warmed up to 18–21 ° C. It is necessary to create greenhouse conditions for them. Immediately after planting the okra, the containers are covered with foil, or even better - with glass. Condensation will accumulate on its surface, which must be disposed of every day. For this, the glass is simply turned over.</string>
+    <string name="abelmoschus_3">In the first 5 days, caring for sprouts involves ensuring coolness, the optimal temperature will be 13 ° C. Then it is gradually increased to the previous level. The seedlings are allowed to grow a little, and then the strongest one is chosen, it is left to develop further, and the rest are weeded out. Only with this approach can you get viable okra seedlings. Seedlings grown in a common container most often die when placed in open ground. Their root system is pivotal; during transplantation, it receives severe damage. If they take root, then their development will be very slow. Okra seedlings are placed in open ground at the age of 40–45 days.</string>
+    ///
+    <string name="anguria">Anguria</string>
+    <string name="anguria_1">Anguria is an annual herb that belongs to the Pumpkin family. This plant is very similar to the traditional cucumber: native to South America; fruits are almost the same in size and shape. Anguria stems are creeping with pubescence, about 3–4 meters long and more. The stems are strewn with tendrils and foliage. Anguria leaves are similar to watermelon, figured cut. The fruits of the plant are in the form of a cylinder, large and medium in size, depending on the species, from 8 to 12 cm long, weighing from 30 to 200 grams. Anguria cucumbers are covered with thorns, pubescent or smooth. When the seeds ripen, the fruits turn orange-yellow or red. Cucumbers ripen in 2.5 months from the moment the first shoots appear. Anguria tastes like a cucumber - sweetish with delicate pulp. The flowers of the plant are yellowish.</string>
+    <string name="anguria_2">The requirements for growing conditions for anguria are about the same as for cucumbers. Anguria loves warmth, the optimum temperature for plant growth and development is + 25 … + 26 degrees. Plants do not tolerate temperatures below + 12 … + 13 ° C, and when the temperature drops below + 5 … + 6 ° C, the plants die quickly. This plant is light-loving, short daylight hours, although it can grow with a long day, but the vegetation is delayed … She is hygrophilous, prefers fertile soils with good drainage and provided with nutrients. Anguria does not tolerate acidic soils and high groundwater levels.</string>
+    <string name="anguria_3">This plant is light-loving, with a short daylight hours, although it can grow with a long day, but the vegetation is delayed. She is hygrophilous, prefers fertile soils with good drainage and provided with nutrients. Anguria does not tolerate acidic soils and a high level of groundwater. When planting seedlings in the hole, you must put two liter jars of humus and a handful of ash, which are well mixed with the soil. Plants need to be buried to the cotyledons. Anguria is very demanding on nutrition, so the plants must be fed every 10 days with a solution of mullein or chicken droppings or a solution of nitrophoska (3 tablespoons per bucket of water).</string>
+    ///
+   <!-- <string name="arrakacha">Arrakacha</string>-->
+    <!--<string name="arrowroot">Arrowroot</string>-->
+    <string name="artichoke">Artichoke</string>
+    
+    <string name="basella">Basella</string>
+    <string name="basil">Basil</string>
+    <string name="okra">Okra</string>
+    <string name="sweet_potato">Sweet potato</string>
+    <string name="butterbur">Белокопытник</string>
+    <string name="white_cabbage">White cabbage</string>
+    <string name="beans">Beans</string>
+    <string name="bok_choy">Bok choy</string>
+    <string name="bell_pepper">Bell pepper</string>
+    <string name="broccoli">Broccoli</string>
+    <string name="swede">Swede</string>
+    <string name="brussels_sprouts">Brussels sprouts</string>
+
+    <string name="hablitzia">Hablitzia</string>
+    <string name="peas">Peas</string>
+    <string name="mustard">Mustard</string>
+
+    <string name="daikon">Daikon</string>
+
+    <string name="watercress">Watercress</string>
+
+    <string name="greenery">Greenery</string>
+
+    <string name="morning_glory">Morning glory</string>
+
+    <string name="capers">Capers</string>
+    <string name="kiwano">Kiwano</string>
+    <string name="oxalis">Oxalis</string>
+    <string name="salsify">Salsify</string>
+    <string name="colocynth">Colocynth</string>
+    <string name="kohlrabi">Kohlrabi</string>
+    <string name="gherkin">Gherkin</string>
+    <string name="red_cabbage">Red cabbage</string>
+    <string name="corn">Corn</string>
+
+    <string name="lagenaria">Lagenaria</string>
+    <string name="lettuce">Lettuce</string>
+    <string name="lobo">Lobo</string>
+    <string name="onion">Onion</string>
+    <string name="leek">Leek</string>
+    <string name="shallot">Shallot</string>
+    <string name="luffa">Luffa</string>
+
+    <string name="marjoram">Marjoram</string>
+    <string name="lepidium_meyenii">Lepidium meyenii</string>
+    <string name="melothria">Melothria</string>
+    <string name="carrot">Carrot</string>
+
+    <string name="nasturtium">Nasturtium</string>
+    <string name="chickpea">Chickpea</string>
+
+    <string name="patisson">Patisson</string>
+    <string name="chinese_cabbage">Chinese cabbage</string>
+    <string name="pepper">Pepper</string>
+    <string name="parsley">Parsley</string>
+    <string name="plantane">Plantane</string>
+
+    <string name="radicchio">Radicchio</string>
+    <string name="rhubarb">Rhubarb</string>
+    <string name="radish">Radish</string>
+    <string name="turnip">Turnip</string>
+    <string name="romanesco">Romanesco</string>
+    <string name="arugula">Arugula</string>
+
+    <string name="savoy_cabbage">Savoy cabbage</string>
+    <string name="salad">Salad</string>
+    <string name="beet">Beet</string>
+    <string name="celery">Celery</string>
+    <string name="sweet_pepper">Sweet pepper</string>
+    <string name="asparagus">Asparagus</string>
+
+    <string name="jerusalem_artichoke">Jerusalem artichoke</string>
+    <string name="trichosanthes">Trichosanthes</string>
+    <string name="turnips">Turnips</string>
+    <string name="pumpkin">Pumpkin</string>
+
+    <string name="dill">Dill</string>
+
+    <string name="navy_bean">Navy bean</string>
+    <string name="fennel">Fennel</string>
+
+    <string name="horseradish">Horseradish</string>
+
+    <string name="cauliflower">Cauliflower</string>
+    <string name="zucchini">Zucchini</string>
+
+    <string name="сhayote">Chayote</string>
+    <string name="cherry_tomato">Cherry</string>
+    <string name="garlic">Garlic</string>
+    <string name="chilli">Chilli</string>
+    <string name="сhufa">Chufa</string>
+
+    <string name="chives">Chives</string>
+    <string name="spinach">Spinach</string>
+
+    <string name="sorrel">Sorrel</string>
+
+    <string name="tarragon">Tarragon</string>
+
+    <string name="yacon">Yacon</string>
+    <string name="yam">Yam</string>
+
+
+
+    <!--Fruits-->
+
+    <string name="apple">Apple</string>
+    <string name="pear">Pear</string>
+    <string name="apricot">Apricot</string>
+    <string name="avocado">Avocado</string>
+    <string name="orange">Orange</string>
+    <string name="garnet">Garnet</string>
+
+
+
+
+
+    <!--Berries-->
+
+    <string name="strawberry">Strawberry</string>
+    <string name="raspberry">Raspberry</string>
+    <string name="cherry">Cherry</string>
+    <string name="watermelon">Watermelon</string>
+    <string name="barberry">Barberry</string>
+    <string name="lingonberry">Lingonberry</string>
+
+
+    <!--Trees-->
+
+    <string name="birch">Birch</string>
+    <string name="cedar">Cedar</string>
+    <string name="linden">Linden</string>
+    <string name="maple">Maple</string>
+    <string name="oak">Oak</string>
+    <string name="pine">Pine</string>
+    <string name="acacia">Acacia</string>
+</resources>
+

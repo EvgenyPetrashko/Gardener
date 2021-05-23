@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Садовник</string>
+
+    <string name="bottom_menu_menu_name">МЕНЮ</string>
+    <string name="bottom_menu_calendar_name">КАЛЕНДАРЬ</string>
+    <string name="bottom_menu_home_name">ДОМ</string>
+    <string name="bottom_menu_settings_name">НАСТРОЙКИ</string>
+    <string name="bottom_menu_profile_name">ПРОФИЛЬ</string>
+
+    <string name="internet_problem">Internet connection problems. To use the application without the Internet, you can purchase the full version when the Internet appears</string>
+
+    <string name="paid_activity_moon">Лунный Календарь</string>
+    <string name="paid_activity_ads">Без Рекламы</string>
+    <string name="paid_activity_offline">Доступ Без Интернета</string>
+    <string name="paid_activity_buy">Оформить Полную Версию</string>
+
+    <!--HomeFragment-->
+    <string name="reminder_text_home">Напоминания</string>
+    <string name="reminder_does_not_exist_text">Напоминаний сейчас нет. Если вы хотите добавить напоминание, перейдите в раздел Календарь</string>
+    <string name="advice_text_example">Если птицы - проблема для вашего сада, то повесить компьютерные диски, которые будут бликовать на солнце, - это хорошее решение..</string>
+    <string name="advice_name_example">Совет#10</string>
+    <string name="reminder_days_left">Дней До: </string>
+
+    <string name="flowers_text_menu">Цветы</string>
+    <string name="vegetables_text_menu">Овощи</string>
+    <string name="fruits_text_menu">Фрукты</string>
+    <string name="berries_text_menu">Ягоды</string>
+    <string name="trees_text_menu">Деревья</string>
+    <string name="shrubs_text_menu">Кусты</string>
+
+    <!--ItemFragment strings-->
+
+    <string name="desc_item">Описание</string>
+    <string name="cond_item">Условия</string>
+    <string name="care_item">Забота</string>
+    <string name="comment_button">Оставить Комментарий</string>
+
+    <!--DialogFragment&Calendar strings-->
+    <string name="date_title_text">Дата:</string>
+    <string name="date_change_button">Изменить</string>
+    <string name="event_name_text">Название:</string>
+    <string name="event_name_hint">Посадить Клубнику</string>
+    <string name="notification_title">Уведомление</string>
+
+    <string name="event_time_text_title">Время:</string>
+
+    <string name="no_event_planned">Событий нет</string>
+
+    <string name="event_description_text">Описание события:</string>
+    <string name="set_notification_check_button">Установить уведомление:</string>
+    <string name="event_description_hint">Посадить Клубнику в Парник</string>
+    <string name="add_event_button">Добавить Событие</string>
+    <string name="change_event_button">Изменить Событие</string>
+    <string name="cancel_event">Отмена</string>
+    <string name="change_event">Изменить</string>
+
+    <string name="toast_on_dismiss_text">Пожалуйста, укажите название</string>
+
+    <string name="delete_event_title">Вы точно хотите удалить данное событие?</string>
+    <string name="delete_event_option_yes">Да</string>
+    <string name="delete_event_option_no">Отмена</string>
+    <string name="result_deleted_string">Успешно Удалено</string>
+    <string name="result_added_string">Успешно Добавлено</string>
+    <string name="result_changed_string">Успешно Изменено</string>
+
+    <!--Popup menu-->
+    <string name="change_popup_menu">Изменить</string>
+    <string name="delete_popup_menu">Удалить</string>
+
+    <!--SettingFragment strings-->
+    <string name="instruction_card_title">Инструкции</string>
+    <string name="language_title">Язык</string>
+    <string name="night_mode_title">Тёмная тема</string>
+    <string name="text_size_title">Размер Текста</string>
+    <string name="text_size_option_small">Малый</string>
+    <string name="text_size_option_normal">Средний</string>
+    <string name="text_size_option_large">Большой</string>
+    <string name="text_default_time_title">Время Уведомления:</string>
+    <string name="feedback_title">Обратная Связь</string>
+    <string name="feedback_desc">Если вы хотите оставить обратную связь/пожелание</string>
+    <string name="feedback_cancel_title">Вы точно хотите вернуться?</string>
+    <string name="full_version_title">Полная Версия</string>
+    <string name="full_version_desc">Убрать рекламу / Доступ без Интернета / Лунный Календарь</string>
+
+    <string name="cancel_text_size">Отмена</string>
+
+
+    <!--MoonCalendar strings-->
+    <string name="unavailable_moon_calendar">Сервис временно недоступен, пробдемы будут устранены в ближайшее время</string>
+    <string name="orientation_title">Положение</string>
+    <string name="moon_phase">Фаза Луны</string>
+    <!--Phases-->
+    <string name="new_moon_phase">Новолуние</string>
+    <string name="new_and_first">Между новолунием и первой четвертью</string>
+    <string name="first_quarter_phase">Первая четверть</string>
+    <string name="first_and_full">Между первой четвертью и полнолунием</string>
+    <string name="full_moon_phase">Полнолуние</string>
+    <string name="full_and_third">Между полнолунием и третьей четвертью</string>
+    <string name="third_quarter_phase">Третья четверть</string>
+    <string name="third_and_new">Между третьей четвертью и новолунием</string>
+
+
+    <!--CommentDialog-->
+    <string name="comment_cancel">Вы уверены, что хотите отменить комментарий?</string>
+    <string name="comment_option_yes">Да</string>
+    <string name="comment_option_cancel">Отмена</string>
+
+    <!--CommentFragment-->
+    <string name="leave_feedback_title">Обратная связь/Пожелания</string>
+    <string name="leave_feedback_begin">Отправка Сообщения</string>
+    <string name="leave_feedback_process">Пожалуйста подождите…</string>
+    <string name="leave_feedback_end">Отправлено</string>
+    <string name="comment_body">Комментарий</string>
+
+    <!--ProfileFragment-->
+    <string name="status_user_string_default">Обычный Пользователь</string>
+    <string name="status_user_string_vip">VIP Пользователь</string>
+    <string name="user_full_name_hint">Полное Имя</string>
+    <string name="user_full_name">Имя Фамилия</string>
+    <string name="favourites_title">Избранное</string>
+    <string name="my_garden_add">Мой Огород</string>
+    <string name="delete_image_toast">Вы уверены, что хотите удалить это изображение?</string>
+    <string name="delete_plant_toast">Вы уверены, что хотите удалить это растение?</string>
+    <string name="delete_plant_toast_result">Успешно удалено</string>
+
+    <!--AddPlantFragment-->
+    <string name="add_fr_save_text">Сохранить</string>
+    <string name="add_fr_name_title">Имя:</string>
+    <string name="add_fr_name_hint">Капуста</string>
+    <string name="add_fr_desc_title">Описание:</string>
+    <string name="add_fr_desc_hint">Посадаить капусту в парник</string>
+    <string name="add_fr_date_title">Дата:</string>
+    <string name="add_fr_date_change">Изменить</string>
+    <string name="add_fr_photos_title">Фото:</string>
+    <string name="add_fr_photos_hint">Если вы хотите добавить фотки к вашему растению</string>
+    <string name="add_fr_add_photo">Добавить Фото</string>
+    <string name="add_fr_result">Успешно</string>
+
+    <!--Camera/Gallery-->
+    <string name="camera_title">Камера</string>
+    <string name="gallery_title">Галерея</string>
+
+
+
+    <string name="long_text">Компиляторы Intel могут не обеспечивать для процессоров других производителей уровень оптимизации, который не является присущим только процессорам IntelКомпиляторы Intel могут не обеспечивать для процессоров других производителей уровень оптимизации, который не является присущим только процессорам Intel. В состав этих оптимизаций входят наборы команд SSE2, SSE3 и SSSE3, а также другие оптимизации. Корпорация Intel не гарантирует доступность, функциональность или эффективность работы любых приложений оптимизации для микропроцессоров других производителей. Содержащиеся в данной продукции оптимизации, предназначены для использования с конкретными микропроцессорами Intel. Некоторые оптимизации, не относящиеся к микроархитектуре Intel, зарезервированы для микропроцессоров Intel. Пожалуйста, см. соответствующее руководство пользователя или справочные руководства для получения дополнительной информации о конкретных наборах команд, к которым относится данное уведомление.Редакция уведомления № 20110804</string>
+
+    <!--Flowers-->
+
+    <string name="rose">Роза</string>
+    <string name="chrysanthemum">Хризантема</string>
+    <string name="violet">Фиалка</string>
+    <string name="petunia">Петуния</string>
+    <string name="linen">Лён</string>
+    <string name="hosts">Хосты</string>
+
+
+    <!--Vegetables-->
+
+    <string name="potato">Картошка</string>
+    <string name="potato1">Растение картофель – вид клубненосных травянистых многолетников рода Паслен семейства Пасленовые. Количество стеблей у одного растения колеблется от 4 до 8–10. Их высота, в зависимости от сорта картофеля, может не превышать 30 см или достигать 1,5 метров.</string>
+    <string name="potato2">Посадка картофеля должна проходить в прогретую почву, потому что при температуре ниже +8оC рост растения прекращается. Лучшие сроки посадки картофеля — это конец апреля – первая половина мая. Чтобы получить хороший урожай, надо подготовить посадочный материал. Для этого выбираются крупные клубни, которые разрезаются на несколько частей с 3–5 глазками. Кусочки на несколько минут погружаются в раствор древесной золы, после чего их подсушивают и проращивают в течение 2 недель. Перед посадкой рекомендуется окунуть пророщенный материал в раствор минеральных удобрений. Глубина посадки картофеля не должна превышать 12 см для поздних сортов и 8 см для ранних и среднеспелых. Высаживать картофель лучше в неглубокие борозды, расстояние между которыми должно быть не менее 0,5 м. </string>
+    <string name="potato3">Обязательным условием является внесение корневых и листовых подкормок. Для этого используются птичий навоз, коровяк, древесная зола, мочевина и суперфосфат. Внекорневая подкормка проводится медным купоросом, помогающим бороться с фитофторозом. Большое значение имеет качественный полив картофеля, который проводится из расчета 15 литров на один куст. За время вегетации таких поливов должно быть не менее 5, причем влага растению наиболее нужна во время цветения и формирования клубней. Собирают картофель тогда, когда ботва подсохла и утратила зеленый цвет.</string>
+    <!--<string name="potato_1">Картошка</string>
+    <string name="potato_2">Картошка</string>
+    <string name="potato_3">Картошка</string>-->
+    ///
+    <string name="tomato">Помидоры</string>
+    <string name="tomato1">Помидор — однолетнее или многолетнее травянистое растение, вид рода Паслён семейства Паслёновые.Томат имеет сильно развитую корневую систему стержневого типа. Корни разветвлённые, растут и формируются быстро. Уходят в землю на большую глубину (при безрассадной культуре до 1 м и более), распространяясь в диаметре на 1,5—2,5 м.</string>
+    <string name="tomato2">Томат — теплотребовательная культура, оптимальная температура для роста и развития растений составляет +22…+25 °C, при темп-ре ни­же 15 °С не цве­тёт, погибает при замерзании ниже 0° С, при температуре ниже +10 °C прекращается рост растений и пыльца в цветках не созревает и неоплодотворённая завязь отпадает. Томат плохо переносит повышенную влажность воздуха, но требует много воды для роста плодов. Растения томата требовательны к свету. При его недостатке задерживается развитие растений, листья бледнеют, образовавшиеся бутоны опадают, стебли сильно вытягиваются. Досвечивание в рассадный период улучшает качество рассады и повышают продуктивность растений.</string>
+    <string name="tomato3">Полив. Поливать следует систематически. На 1 куст берется 1 л воды. Окучивание.ервый раз нужно окучить спустя 8–12 суток после пересадки в открытую почву, когда томаты будут политы. Повторно данную процедуру нужно произвести спустя 17–20 суток после первого окучивания. Пасынкование. Спустя 20 дней после пересадки рассады в открытую почву. Мульчирование. Использовать нужно органику: торф, траву либо опилки. </string>
+    //
+    <string name="cucumber">Огурцы</string>
+    <string name="eggplant">Баклажаны</string>
+    <string name="squash">Кабачки</string>
+    <string name="cabbage">Капуста</string>
+
+    <string name="abelmoschus">Абельмош</string>
+    <string name="abelmoschus_1">Абельмош съедобный - однолетнее травянистое растение, вид рода Абельмош. Высота растения — от 30—40 см (карликовые сорта) до 2 м (высокорослые формы). Молодые стручки бамии употребляют в пищу. Стручки бамии нельзя долго хранить, они быстро становятся волокнистыми. Варёная или слегка обжаренная бамия может быть гарниром, а также заправкой для супов. Она хорошо сочетается с помидорами, чесноком, луком, имбирём, красным стручковым перцем и другими специями. Из зрелых семян готовят напиток, по вкусу напоминающий кофе. Убирают плоды бамии многократно, примерно каждые 3—4 дня, до самых заморозков, более зрелые плоды грубеют, становятся жёсткими и несъедобными.</string>
+    <string name="abelmoschus_2">Посев семян на рассаду проводят в конце зимы или в самом начале весны. Удобно использовать для этого торфяные стаканчики. Их заполняют плодородным грунтом и в каждый помещают по 3 семени бамии. Чтобы они быстрее дали всходы, за сутки до посева их замачивают. Сверху их укрывают 4-сантиметровым слоем грунта. Для прорастания семян важен температурный режим, воздух должен быть прогрет до 18–21°C. Необходимо создать для них тепличные условия. Сразу после посадки бамии емкости закрывают пленкой, а еще лучше – стеклом. На его поверхности будет скапливаться конденсат, от которого нужно избавляться каждый день. Для этого стекло просто переворачивают.</string>
+    <string name="abelmoschus_3">В первые 5 дней уход за ростками предполагает обеспечение прохлады, оптимальной будет температура в 13°C. Затем ее постепенно повышают до прежнего уровня. Сеянцам дают немного подрасти, а затем выбирают из них самый сильный, его оставляют развиваться дальше, а остальные выпалывают. Только при таком подходе можно получить жизнеспособную рассаду бамии. Выращенные в общей емкости сеянцы при помещении в открытый грунт чаще всего погибают. Корневая система у них стержневая, при пересадке она получает сильные повреждения. Если они и приживутся, то их развитие будет очень медленным. В открытый грунт сеянцы окры помещают в возрасте 40–45 дней.</string>
+    ///
+    <string name="anguria">Ангурия</string>
+    <string name="anguria_1">Ангурия – однолетнее травянистое растение, принадлежит к семейству Тыквенных. Это растение очень схоже с традиционным огурцом: родина Южная Америка; плоды практически одинаковы размером и формой. Стебли ангурии ползучие с опушением, длиной около 3–4 метров и более. Стебли усыпаны усиками и листвой. Листья ангурии похожи на арбузные, фигурно-резанные. Плоды растения в виде цилиндра, крупные и среднего размера в зависимости от вида, длиной от 8 до 12 см, весом от 30 до 200 грамм. Огурцы ангурии покрыты шипами, опушены или гладенькие. Когда поспевают семена, плоды становятся оранжево-желтыми или красными. Созревают огурцы через 2,5 месяца с момента появления первых всходов. На вкус ангурия похожа на огурец – сладковатая с нежной мякотью. Цветки растения желтоватого окраса.</string>
+    <string name="anguria_2">Требования к условиям выращивания у ангурии примерно такие же, как и у огурцов. Ангурия любит тепло, оптимальная температура для роста и развития растения +25…+26 градусов. Температуру ниже +12…+13°С растения переносят плохо, а при снижении температуры ниже +5…+6°С растения быстро погибают.Это растение светолюбивое, короткого светового дня, хотя может расти и при длинном дне, но при этом вегетация затягивается. Она влаголюбива, предпочитает плодородные почвы с хорошим дренажем и обеспеченные питательными веществами. Кислые почвы и высокий уровень грунтовых вод ангурия не переносит.</string>
+    <string name="anguria_3">Это растение светолюбивое, короткого светового дня, хотя может расти и при длинном дне, но при этом вегетация затягивается. Она влаголюбива, предпочитает плодородные почвы с хорошим дренажем и обеспеченные питательными веществами. Кислые почвы и высокий уровень грунтовых вод ангурия не переносит.При посадке рассады в лунку необходимо положить две литровые банки перегноя и горсть золы, которые хорошо перемешивают с почвой. Растения необходимо заглубить до семядолей.Ангурия очень требовательна к питанию, поэтому растения необходимо подкармливать каждые 10 дней раствором коровяка или куриного помета или раствором нитрофоски (3 ст. ложки на ведро воды).</string>
+    ///
+    <!--<string name="arrakacha">Арракача</string>
+    <string name="arrakacha_1">Арракача</string>
+    <string name="arrakacha_2">Арракача</string>
+    <string name="arrakacha_3">Арракача</string>-->
+    //
+   <!-- <string name="arrowroot">Аррорут</string>-->
+    <string name="artichoke">Артишок</string>
+
+    <string name="basella">Базелла</string>
+    <string name="basil">Базилик</string>
+    <string name="okra">Бамия</string>
+    <string name="sweet_potato">Батат</string>
+    <string name="butterbur">Белокопытник</string>
+    <string name="white_cabbage">Белокочанная капуста</string>
+    <string name="beans">Бобы</string>
+    <string name="bok_choy">Бок чой</string>
+    <string name="bell_pepper">Болгарский перец</string>
+    <string name="broccoli">Брокколи</string>
+    <string name="swede">Брюква</string>
+    <string name="brussels_sprouts">Брюссельская капуста</string>
+
+    <string name="hablitzia">Габлиция</string>
+    <string name="peas">Горох</string>
+    <string name="mustard">Горчица</string>
+
+    <string name="daikon">Дайкон</string>
+
+    <string name="watercress">Жеруха</string>
+
+    <string name="greenery">Зелень</string>
+
+    <string name="morning_glory">Импомея</string>
+
+    <string name="capers">Каперсы</string>
+    <string name="kiwano">Кивано</string>
+    <string name="oxalis">Кислица</string>
+    <string name="salsify">Козлобородник</string>
+    <string name="colocynth">Колоцинт</string>
+    <string name="kohlrabi">Кольраби</string>
+    <string name="gherkin">Корнишон</string>
+    <string name="red_cabbage">Краснокочанная капуста</string>
+    <string name="corn">Кукуруза</string>
+
+    <string name="lagenaria">Лагенария</string>
+    <string name="lettuce">Латук</string>
+    <string name="lobo">Лоба</string>
+    <string name="onion">Лук</string>
+    <string name="leek">Лук-порей</string>
+    <string name="shallot">Лук-шалот</string>
+    <string name="luffa">Люффа</string>
+
+    <string name="marjoram">Майоран</string>
+    <string name="lepidium_meyenii">Мака</string>
+    <string name="melothria">Мелотрия</string>
+    <string name="carrot">Морковь</string>
+
+    <string name="nasturtium">Настурция</string>
+    <string name="chickpea">Нут</string>
+
+    <string name="patisson">Патиссон</string>
+    <string name="chinese_cabbage">Пекинская капуста</string>
+    <string name="pepper">Перец</string>
+    <string name="parsley">Петрушка</string>
+    <string name="plantane">Плантан</string>
+
+    <string name="radicchio">Радиккьо</string>
+    <string name="rhubarb">Ревень</string>
+    <string name="radish">Редис</string>
+    <string name="turnip">Репа</string>
+    <string name="romanesco">Романеско</string>
+    <string name="arugula">Руккола</string>
+
+    <string name="savoy_cabbage">Савойская капуста</string>
+    <string name="salad">Салат</string>
+    <string name="beet">Свекла</string>
+    <string name="celery">Сельдерей</string>
+    <string name="sweet_pepper">Сладкий перец</string>
+    <string name="asparagus">Спаржа</string>
+
+    <string name="jerusalem_artichoke">Топинамбур</string>
+    <string name="trichosanthes">Трихозант</string>
+    <string name="turnips">Турнепс</string>
+    <string name="pumpkin">Тыква</string>
+
+    <string name="dill">Укроп</string>
+
+    <string name="navy_bean">Фасоль</string>
+    <string name="fennel">Фенхель</string>
+
+    <string name="horseradish">Хрен</string>
+
+    <string name="cauliflower">Цветная капуста</string>
+    <string name="zucchini">Цуккини</string>
+
+    <string name="cherry_tomato">Помидоры черри</string>
+    <string name="chilli">Перец чили</string>
+
+    <string name="сhayote">Чайот</string>
+    <string name="garlic">Чеснок</string>
+    <string name="сhufa">Чуфа</string>
+
+    <string name="chives">Шнитт-лук</string>
+    <string name="spinach">Шпинат</string>
+
+    <string name="sorrel">Щавель</string>
+
+    <string name="tarragon">Эстрагон</string>
+
+    <string name="yacon">Якон</string>
+    <string name="yam">Ямс</string>
+
+
+    <!--Fruits-->
+
+    <string name="apple">Яблоко</string>
+    <string name="pear">Груша</string>
+    <string name="apricot">Абрикос</string>
+    <string name="avocado">Авокадо</string>
+    <string name="orange">Апельсин</string>
+    <string name="garnet">Гранат</string>
+
+    <!--<string name="">Азимина</string>
+    <string name="">Айва</string>
+    <string name="">Алыча</string>
+    <string name="">Ананас</string>
+    <string name="">Адамово яблоко</string>
+
+
+    <string name="">Банан</string>
+
+    <string name="">Грейпфрут</string>
+    <string name="">Гуава</string>
+    <string name="">Гранадилла</string>
+    <string name="">Гуанабана</string>
+
+    <string name="">Дыня</string>
+
+    <string name="">Инжир</string>
+    <string name="">Карамбола</string>
+    <string name="">Кивано</string>
+    <string name="">Киви</string>
+    <string name="">Кокос</string>
+    <string name="">Кумкват</string>
+
+    <string name="">Лайм</string>
+    <string name="">Лимон</string>
+    <string name="">Личи</string>
+    <string name="">Лонган</string>
+
+    <string name="">Манго</string>
+    <string name="">Мандарин</string>
+    <string name="">Маракуйя</string>
+
+    <string name="">Нектарин</string>
+
+    <string name="">Папайя</string>
+    <string name="">Персик</string>
+    <string name="">Питайя</string>
+    <string name="">Помело</string>
+    <string name="">Померанец</string>
+
+    <string name="">Фейхоа</string>
+    <string name="">Финики</string>
+
+    <string name="">Хурма</string>-->
+
+
+
+    <!--Berries-->
+
+    <string name="strawberry">Клубника</string>
+    <string name="raspberry">Малина</string>
+    <string name="cherry">Вишня</string>
+    <string name="watermelon">Арбуз</string>
+    <string name="barberry">Барбарис</string>
+    <string name="lingonberry">Брусника</string>
+
+
+    <!--Trees-->
+
+    <string name="birch">Береза</string>
+    <string name="cedar">Кедр</string>
+    <string name="linden">Липа</string>
+    <string name="maple">Клен</string>
+    <string name="oak">Дуб</string>
+    <string name="pine">Сосна</string>
+    <string name="acacia">Акация</string>
+</resources>

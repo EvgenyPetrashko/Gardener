@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="OldColorPrimary">#6200EE</color>
+    <color name="colorPrimary">#288B64</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="support_color">#6200ee</color>
+    <color name="bottom_back_color">#b1dc94</color>
+    <color name="bottom_icon_text_color">#a14e22</color>
+
+    <color name="dark_gray_color">#9C9A9A</color>
+
+    <color name="calendar_selected_day">#028f82</color>
+    <color name="calendar_current_day">#C7C7C7</color>
+    <color name="calendar_fab_color">#fe4080</color>
+
+    <color name="switch_color">#0077f8</color>
+
+    <color name="experiment">#151515</color>
+</resources>

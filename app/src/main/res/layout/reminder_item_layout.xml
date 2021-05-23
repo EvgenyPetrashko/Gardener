@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:id="@+id/reminder_card_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF444444">
+
+        <ImageView
+            android:id="@+id/reminder_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bell_icon"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/reminder_icon"
+            android:layout_marginStart="10dp"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/reminder_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AAAAAAAAAAAAAAAAAAAAA"
+                android:ellipsize="end"
+                android:maxWidth="160dp"
+                android:maxLines="1"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/reminder_date_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01.01.2020 17:30"
+                android:textColor="@color/dark_gray_color"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/reminder_days_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/reminder_days_left"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Calendar fragment which should contain calndarView and moon widget-->
+
+<RelativeLayout
+    android:id="@+id/calendar_fragment_back"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.core.widget.NestedScrollView android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/data_container"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:background="@color/colorPrimary">
+
+                <TextView
+                    android:id="@+id/month_title_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:text="MONTH"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"/>
+
+                <ImageButton
+                    android:id="@+id/month_left_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_month_left_button"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="15dp"
+                    android:background="@android:color/transparent"
+                    android:layout_centerVertical="true"/>
+
+                <ImageButton
+                    android:id="@+id/month_right_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_month_right_button"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="15dp"
+                    android:background="@android:color/transparent"
+                    android:layout_centerVertical="true"/>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/calendar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/data_container"
+                android:orientation="vertical">
+
+                <com.github.sundeepk.compactcalendarview.CompactCalendarView
+                    android:id="@+id/calendar"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    app:compactCalendarBackgroundColor="@color/white"
+                    app:compactCalendarCurrentDayBackgroundColor="@color/calendar_current_day"
+                    app:compactCalendarCurrentSelectedDayBackgroundColor="@color/colorPrimary"
+                    app:compactCalendarMultiEventIndicatorColor="#000000"
+                    app:compactCalendarTextColor="@color/black"
+                    app:compactCalendarCurrentSelectedDayTextColor="@color/white"
+                    app:compactCalendarTextSize="12sp" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginTop="-40dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="5dp">
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/fab_add_event"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_add_fab"
+                        android:layout_toEndOf="@id/moon_calendar_button"
+                        app:backgroundTint="@color/colorPrimary" />
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/moon_calendar_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:src="@drawable/moon_icon"
+                        app:backgroundTint="@color/experiment" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_no_events"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp"
+                android:layout_below="@id/calendar_layout"
+                android:visibility="visible">
+                <LinearLayout
+                    android:id="@+id/card_no_events_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/card_no_events_text_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_margin="15dp"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:text="@string/no_event_planned"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/event_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/calendar_layout"
+                android:layout_marginBottom="35dp"
+               />
+
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</RelativeLayout>

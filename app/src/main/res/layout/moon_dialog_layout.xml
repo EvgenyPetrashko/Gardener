@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@drawable/moon_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:text="@string/moon_phase"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/moon_image"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/orientation_text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:text="@string/orientation_title"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/moon_orientation_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="Full Moon"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    
+    <style name="Switch_style">
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <style name="EditTextStyle" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@android:color/darker_gray</item>
+        <item name="colorControlActivated">@color/white</item>
+    </style>
+
+    <style name="DialogThemeLight" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+
+    <!--<style name="DialogThemeDark" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/black</item>
+    </style>-->
+
+</resources>

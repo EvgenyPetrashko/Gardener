@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--SettingsFragment which contains all settings of app-->
+
+<androidx.core.widget.NestedScrollView
+    android:id="@+id/settings_fragment_back"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/settings_add"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="15dp"
+            android:layout_margin="10dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/prob_settings_card_instruction_back">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:text="@string/instruction_card_title"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/dark_gray_color"/>
+
+        <RelativeLayout
+            android:id="@+id/theme_block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/night_mode_selection_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/night_mode_icon"
+                android:background="@android:color/transparent"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"/>
+
+            <TextView
+                android:id="@+id/theme_text_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_toEndOf="@id/night_mode_selection_icon"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:text="@string/night_mode_title"/>
+
+            <Switch
+                android:id="@+id/theme_switcher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:theme="@style/Switch_style"/>
+
+
+        </RelativeLayout>
+
+       <!-- <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/dark_gray_color"/>-->
+
+        <RelativeLayout
+            android:id="@+id/text_size_block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/text_size_selection_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/text_size_icon"
+                android:background="@android:color/transparent"/>
+
+            <TextView
+                android:id="@+id/text_size_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/text_size_selection_icon"
+                android:layout_centerVertical="true"
+                android:text="@string/text_size_title"/>
+
+            <TextView
+                android:id="@+id/text_size_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@color/dark_gray_color"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:text="@string/text_size_option_normal"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/dark_gray_color"/>
+
+        <RelativeLayout
+            android:id="@+id/feedback_block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:id="@+id/feedback_selection_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/feedback_icon"/>
+
+            <TextView
+                android:id="@+id/feedback_text_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:gravity="left"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/feedback_selection_icon"
+                android:text="@string/feedback_title" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/dark_gray_color"
+                android:gravity="left"
+                android:layout_toEndOf="@id/feedback_selection_icon"
+                android:layout_marginStart="15dp"
+                android:text="@string/feedback_desc"
+                android:layout_below="@id/feedback_text_title"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/full_version_block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:id="@+id/full_version_selection_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/full_version_icon"/>
+
+            <TextView
+                android:id="@+id/full_version_block_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:gravity="left"
+                android:layout_marginStart="15dp"
+                android:text="@string/full_version_title"
+                android:layout_toEndOf="@+id/full_version_selection_icon"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/dark_gray_color"
+                android:gravity="left"
+                android:layout_toEndOf="@id/full_version_selection_icon"
+                android:layout_marginStart="15dp"
+                android:text="@string/full_version_desc"
+                android:layout_below="@id/full_version_block_title"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

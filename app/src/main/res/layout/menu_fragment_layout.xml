@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--MenuFragment which contains categories-->
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:id="@+id/menu_fragment_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView android:layout_width="match_parent"
+            android:id="@+id/menu_flower_card"
+            android:onClick="MenuCardClick"
+            android:layout_height="200dp"
+            android:layout_margin="15dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                android:background="@drawable/flowers_back_card"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/flowers_text_menu"
+                    android:gravity="center"
+                    android:textSize="28sp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView android:layout_width="match_parent"
+            android:id="@+id/menu_vegetables_card"
+            android:onClick="MenuCardClick"
+            android:layout_height="200dp"
+            android:layout_margin="15dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                android:background="@drawable/vegetables_back_card"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/vegetables_text_menu"
+                    android:gravity="center"
+                    android:textSize="28sp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView android:layout_width="match_parent"
+            android:id="@+id/menu_fruits_card"
+            android:onClick="MenuCardClick"
+            android:layout_height="200dp"
+            android:layout_margin="15dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                android:background="@drawable/fruit_back_card"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/fruits_text_menu"
+                    android:gravity="center"
+                    android:textSize="28sp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView android:layout_width="match_parent"
+            android:id="@+id/menu_berries_card"
+            android:onClick="MenuCardClick"
+            android:layout_height="200dp"
+            android:layout_margin="15dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                android:background="@drawable/berries_back_card"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/berries_text_menu"
+                    android:gravity="center"
+                    android:textSize="28sp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView android:layout_width="match_parent"
+            android:id="@+id/menu_trees_card"
+            android:onClick="MenuCardClick"
+            android:layout_height="200dp"
+            android:layout_margin="15dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                android:background="@drawable/trees_back_card"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/trees_text_menu"
+                    android:gravity="center"
+                    android:textSize="28sp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView android:layout_width="match_parent"
+            android:id="@+id/menu_shrubs_card"
+            android:onClick="MenuCardClick"
+            android:layout_height="200dp"
+            android:layout_margin="15dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                android:background="@drawable/shrubs_back_card"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/shrubs_text_menu"
+                    android:gravity="center"
+                    android:textSize="28sp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.core.widget.NestedScrollView>

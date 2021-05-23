@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--ProfileFragment which contains personal information-->
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/splash_screen_back">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/profile_add"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/person_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="8dp"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            android:layout_below="@id/profile_add">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF444444">
+                <ImageView
+                    android:id="@+id/person_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:background="@android:color/transparent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/def_gard_icon_64_1"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"/>
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:layout_toEndOf="@id/person_icon"
+                   android:layout_marginStart="10dp"
+                   android:layout_centerVertical="true">
+
+                   <TextView
+                       android:id="@+id/person_status_text"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textSize="18sp"
+                       android:textColor="@color/white"
+                       android:layout_marginTop="5dp"
+                       android:text="@string/status_user_string_default" />
+
+                   <TextView
+                       android:id="@+id/person_name_text"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textSize="18sp"
+                       android:textColor="@color/white"
+                       android:layout_marginTop="5dp"
+                       android:text="@string/user_full_name" />
+
+               </LinearLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/favourites_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:elevation="8dp"
+            app:cardCornerRadius="10dp"
+            android:layout_below="@id/person_card">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:background="#FF444444">
+
+                <ImageView
+                    android:id="@+id/star_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/favorite_icon"
+                    android:layout_marginStart="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+                    android:layout_toEndOf="@id/star_icon"
+                    android:layout_marginStart="15dp"
+                    android:text="@string/favourites_title"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24_white"/>
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/my_garden_card"
+            android:layout_below="@id/favourites_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:elevation="8dp"
+            app:cardCornerRadius="10dp">
+
+            <RelativeLayout
+                android:id="@+id/my_garden_back"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#FF444444">
+
+                <TextView
+                    android:id="@+id/my_garden_text_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:text="@string/my_garden_add"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"/>
+
+                <ImageButton
+                    android:id="@+id/pr_fr__add_plant"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="5dp"
+                    android:src="@drawable/ic_baseline_add_24_green"
+                    android:background="@android:color/transparent"/>
+
+
+            </RelativeLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_below="@+id/my_garden_card"
+                    android:id="@+id/my_garden_rv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
